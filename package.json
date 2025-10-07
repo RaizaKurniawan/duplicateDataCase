@@ -1,0 +1,32 @@
+{
+  "name": "duplicatedatacase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "allure:clean": "rm -rf allure-results && rm -rf allure-report",
+    "test:report": "npx playwright test --reporter=line,allure-playwright",
+    "allure:serve": "allure serve allure-results"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaizaKurniawan/duplicateDataCase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RaizaKurniawan/duplicateDataCase/issues"
+  },
+  "homepage": "https://github.com/RaizaKurniawan/duplicateDataCase#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^24.7.0",
+    "allure-playwright": "^3.4.1"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
+}
