@@ -123,10 +123,10 @@ To run tests, run the following command
 ```
 
 ## Screenshot
-* ![screenshot] (/data/testResult.png)
-* ![screenshot] (/data/testResult1.png)
-* ![screenshot] (/data/testResult2.png)
-* ![screenshot] (/data/testResult3.png)
+* ![screenshot] (https://github.com/RaizaKurniawan/duplicateDataCase/blob/main/data/testResult.png)
+* ![screenshot] (https://github.com/RaizaKurniawan/duplicateDataCase/blob/main/data/testResult1.png)
+* ![screenshot] (https://github.com/RaizaKurniawan/duplicateDataCase/blob/main/data/testResult2.png)
+* ![screenshot] (https://github.com/RaizaKurniawan/duplicateDataCase/blob/main/data/testResult3.png)
 
 ## Authors
 
