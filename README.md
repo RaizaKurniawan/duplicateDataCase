@@ -1,10 +1,14 @@
 # Duplicate Data Case Using Playwright & Allure
 
 
-This document contain the instruction of how to run the project
+This document contain: 
+* Scenario 
+* Tech Stack
+* Instruction how to run the project
+* Running Test
 
 Kindly note:
-The folder structure should be like this
+* The folder structure should be like this
 
 ```bash
 duplicateDataCase/
@@ -28,9 +32,9 @@ duplicateDataCase/
 Automated validation using Playwright + Allure Reporting.
 This test suite validates the integrity of booking data by ensuring:
 
-No duplicate bookings exist for the same venue, date, and time.
+* No duplicate bookings exist for the same venue, date, and time.
 
-Booking prices are consistent with the defined venue schedule.
+* Booking prices are consistent with the defined venue schedule.
 
 ## Test Scenarios
 ### **SCENARIO 1 — Detect Duplicate Booking**
