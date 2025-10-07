@@ -122,11 +122,7 @@ To run tests, run the following command
   npm run allure:serve
 ```
 
-## Screenshot
-data/testResult.png
-data/testResult1.png
-data/testResult2.png
-data/testResult3.png
+
 
 
 ## Authors
