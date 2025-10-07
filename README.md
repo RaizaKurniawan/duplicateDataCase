@@ -23,7 +23,49 @@ duplicateDataCase/
 
 ```
 
+# Booking Data Validation Test
 
+Automated validation using Playwright + Allure Reporting.
+This test suite validates the integrity of booking data by ensuring:
+
+No duplicate bookings exist for the same venue, date, and time.
+
+Booking prices are consistent with the defined venue schedule.
+
+## Test Scenarios
+### **SCENARIO 1 — Detect Duplicate Booking**
+
+Objective:
+* Ensure that there are no double bookings for the same venue_id, date, start, and end time.
+
+Details:
+
+* The test iterates through all records in bookingData.json.
+
+* Each booking slot combination (venue_id + date + start + end) is tracked in a Set.
+
+* If a combination already exists, it is marked as a duplicate.
+
+Expected Result: 
+* No duplicates found (hasDuplicate = false).
+### 
+### **SCENARIO 2 — Validate Price Consistency**
+
+Objective:
+* Ensure that the price in booking data matches the official price listed in venueSchedule.json.
+
+Details:
+
+* Each booking is compared against the corresponding venue schedule.
+
+* A match is required for venue_id, date, start, and end.
+
+* Any mismatch or missing schedule entry causes a test failure.
+
+Expected Result: 
+* All booking prices match their schedules.
+
+### 
 
 ## Tech Stack
 
